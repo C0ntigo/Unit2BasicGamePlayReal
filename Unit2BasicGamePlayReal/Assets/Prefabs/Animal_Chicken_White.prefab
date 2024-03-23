@@ -137,6 +137,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2957319187379101035}
   - component: {fileID: 7193346488711720369}
+  - component: {fileID: 3540401114971680085}
+  - component: {fileID: 3648060423637338252}
+  - component: {fileID: -5254478602282642804}
+  - component: {fileID: 2621921040513785228}
   m_Layer: 0
   m_Name: Animal_Chicken_White
   m_TagString: Untagged
@@ -152,8 +156,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1473382496494415154}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7425904, z: -0, w: 0.66974586}
-  m_LocalPosition: {x: 6.2485847, y: 0.039157867, z: 16.219671}
+  m_LocalRotation: {x: -0, y: 0.99867886, z: -0, w: -0.051386207}
+  m_LocalPosition: {x: -0.57, y: 0.039157867, z: -2.48}
   m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -166,7 +170,7 @@ Transform:
   - {fileID: 6220608849154502767}
   - {fileID: 9137894238384012158}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 95.905, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 185.891, z: 0}
 --- !u!95 &7193346488711720369
 Animator:
   serializedVersion: 5
@@ -188,6 +192,64 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3540401114971680085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473382496494415154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59287afd777ee8341ba9f1b700e115da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3648060423637338252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473382496494415154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4862e8854f74767488d77f07ca087a3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 12
+--- !u!65 &-5254478602282642804
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473382496494415154}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.48523, y: 14.29371, z: 19.06115}
+  m_Center: {x: 1.157784, y: 6.646857, z: -1.272616}
+--- !u!114 &2621921040513785228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473382496494415154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 908f084cfb9b01140956ea2feb348c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1739186911530382632
 GameObject:
   m_ObjectHideFlags: 0
