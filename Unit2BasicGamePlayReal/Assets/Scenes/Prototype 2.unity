@@ -327,7 +327,7 @@ Transform:
   m_GameObject: {fileID: 475985833}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 10}
+  m_LocalPosition: {x: 0, y: -8.91, z: 10}
   m_LocalScale: {x: 5.658362, y: 1, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -509,7 +509,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: f8abbdd178867d2419ba9feb6ff2cba0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.01
+      value: -8.78
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: f8abbdd178867d2419ba9feb6ff2cba0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -624,8 +624,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animalPrefabs:
   - {fileID: 1473382496494415154, guid: 64e0411d6ae0d664b84fffc1eaa82846, type: 3}
-  - {fileID: 931743643237367807, guid: 6b9d1ddf79266d74b872cd86539b976d, type: 3}
   - {fileID: 6825041043635717151, guid: 07785813dabfeb34fa0907aab0fee36c, type: 3}
+  - {fileID: 931743643237367807, guid: 6b9d1ddf79266d74b872cd86539b976d, type: 3}
 --- !u!4 &1166207973
 Transform:
   m_ObjectHideFlags: 0
@@ -635,7 +635,7 @@ Transform:
   m_GameObject: {fileID: 1166207971}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -8.39, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -745,6 +745,9 @@ MonoBehaviour:
   speed: 35
   xRange: 16
   projectilePrefab: {fileID: 2824768894402541750, guid: e072328e279637945a5c7990f8b94217, type: 3}
+  zMin: -8.85
+  zMax: 15.5
+  verticalInput: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
