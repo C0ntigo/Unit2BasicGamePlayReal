@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     public float speed = 10.0f;
     public float xRange = 30;
 
-
+    public Transform projectileSpawnPoint;
     public GameObject projectilePrefab;
 
     public float zMin;
@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Instantiate(projectilePrefab, projectileSpawnPoint.position, projectilePrefab.transform.rotation);
         // Keep the player in bounds
         if (transform.position.x < -xRange)
         {
