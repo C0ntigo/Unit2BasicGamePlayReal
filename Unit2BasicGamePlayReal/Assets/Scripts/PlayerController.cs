@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Instantiate(projectilePrefab, projectileSpawnPoint.position, projectilePrefab.transform.rotation);
+        
         // Keep the player in bounds
         if (transform.position.x < -xRange)
         {
@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour
 
        if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+            Instantiate(projectilePrefab, projectileSpawnPoint.position, projectilePrefab.transform.rotation);
         }
     }
 }

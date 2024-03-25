@@ -24,10 +24,9 @@ public class DetectCollisions : MonoBehaviour
             gameManager.AddLives(-1);
             Destroy(gameObject);
         }
-        else
+        else if (other.CompareTag("Animal"))
         {
-            gameManager.AddScore(5);
-            Destroy(gameObject);
+            other.GetComponent<AnimalHunger>().FeedAnimal(1);
             Destroy(other.gameObject);
         }
        
