@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class DetectCollisionsX : MonoBehaviour
 {
+  
 
+    void Start()
+    {
+        
+    }
     private void OnTriggerEnter(Collider other)
     {
-        if (gameObject.CompareTag("Ball"))
-            Destroy(gameObject);
+        Destroy(gameObject);
     }
-  
+   
 }
